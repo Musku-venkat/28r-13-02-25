@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #container{
+                margin: 50px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            #container{
+                border: 2px solid #ccc;
+                padding: 10px;
+            }
+            #sub-container{
+                margin: 50px;
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+                text-align: center;
+            }
+            #sub-container>div{
+                border: 2px solid green;
+                padding: 10px;
+            }
+            #sub-container>div>img{
+                width: 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+        <div id="sub-container"></div>
+        <script src="./script.js"></script>
+    </body>
+</html>
